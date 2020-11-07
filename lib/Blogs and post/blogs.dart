@@ -255,7 +255,7 @@ class _BlogsState extends State<Blogs> {
                                                             snapshot1
                                                                     .data.value[
                                                                 'image']),
-                                                        fit: BoxFit.cover)),
+                                                        fit: BoxFit.fill)),
                                               ),
                                               /*Container(
                                               child: Padding(
@@ -337,7 +337,7 @@ class _BlogsState extends State<Blogs> {
                         image: DecorationImage(
                             alignment: Alignment.center,
                             image: NetworkImage(image),
-                            fit: BoxFit.cover)),
+                            fit: BoxFit.fill)),
                   ),
                   SizedBox(
                     height: 20,

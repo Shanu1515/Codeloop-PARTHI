@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:page_transition/page_transition.dart';
 import 'package:parthi/Bottomnavbar/bottombar.dart';
+import 'package:parthi/messages.dart';
 
 class Choices extends StatefulWidget {
   @override
@@ -103,10 +104,10 @@ class _ChoicesState extends State<Choices> {
                 ),
                 GestureDetector(
                   onTap: () {
-                    //  Navigator.push(
-                    //   context,
-                    //   PageTransition(
-                    //   type: PageTransitionType.fade, child: Message()));
+                    Navigator.push(
+                        context,
+                        PageTransition(
+                            type: PageTransitionType.fade, child: Message()));
                   },
                   child: Container(
                     width: 290,

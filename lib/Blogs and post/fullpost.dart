@@ -42,8 +42,7 @@ class _MoreState extends State<More> {
                   height: MediaQuery.of(context).size.height / 3,
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          fit: BoxFit.cover,
-                          image: NetworkImage(widget.image))),
+                          fit: BoxFit.fill, image: NetworkImage(widget.image))),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
