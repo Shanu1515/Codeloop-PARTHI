@@ -23,12 +23,42 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
   introduction_screen:
+  flutter_dialogflow: ^0.1.3
+  hexcolor: ^1.0.4
+  flutter_launcher_icons: ^0.7.3
+  firebase_auth: ^0.16.1
+  page_transition: "^1.1.6"
+  google_sign_in: ^4.1.1
+  firebase_storage: ^3.1.1
+  shared_preferences: ^0.5.12
+  flutter_socket_io: 
+  animated_text_kit: ^2.3.0
+  scoped_model: 
+  firebase_database: 
+  font_awesome_flutter: ^8.8.1
+  permission_handler: ^3.0.0
+  agora_rtc_engine: ^3.0.1-dev.7
+  peek_and_pop: ^1.0.3
+  uuid: ^2.0.4
+  delayed_display: ^1.0.3
+  image_picker: ^0.6.3+1
+  bubble: 
+  material_design_icons_flutter: ^4.0.5655
+  razorpay_flutter: ^1.2.2
+  fluttertoast: ^7.0.1+14
+  share: ^0.6.5+4
+  like_button: ^1.0.4
+  intl:
+  percent_indicator: ^2.1.7+4
+  flutter_staggered_grid_view: ^0.3.2
 
 dev_dependencies:
   flutter_test:
@@ -47,10 +77,46 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/p1.png
-    - assets/p2.png
-    - assets/p3.png
-    - assets/p4.png
+     - assets/user.png
+     - assets/bot.png
+     - assets/1.jpg
+     - assets/home.gif
+     - assets/self.gif
+     - assets/girl1.jpeg
+     - assets/girl2.jpeg
+     - assets/girl3.jpeg
+     - assets/girl4.jpeg
+     - assets/girl5.jpeg
+     - assets/girl6.jpeg
+     - assets/girl7.jpg
+     - assets/girl8.jpeg
+     - assets/girl9.jpeg
+     - assets/girl10.jpeg
+     - assets/girl11.jpeg
+     - assets/girl12.jpeg
+     - assets/girl13.jpeg
+     - assets/2.jpg
+     - assets/3.jpg
+     - assets/4.jpg
+     - assets/p1.png
+     - assets/lb.png
+     - assets/sj.jpg
+     - assets/p2.png
+     - assets/p3.png
+     - assets/pk.jpg
+     - assets/bp.jpg
+     - assets/wi.jpg
+     - assets/bc.png
+     - assets/p4.png
+     - assets/5.png
+     - assets/ty.gif
+     - assets/doctor.gif
+     - assets/6.jpg
+     - assets/load.gif
+     - assets/Logo.jpeg
+     - assets/g.jpg
+     - lib/Language/types/en.json
+     - lib/Language/types/hi.json
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

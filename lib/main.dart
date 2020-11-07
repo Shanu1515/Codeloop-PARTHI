@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:introduction_screen/introduction_screen.dart';
+import 'package:parthi/Languagesupport/1.dart';
+import 'package:parthi/global.dart';
 
 void main() {
   runApp(App());
@@ -28,11 +30,17 @@ class OnBoardingPage extends StatefulWidget {
 }
 
 class _OnBoardingPageState extends State<OnBoardingPage> {
+  @override
+  void initState() {
+    super.initState();
+    abc5 = 'en';
+  }
+
   final introKey = GlobalKey<IntroductionScreenState>();
 
   void _onIntroEnd(context) {
     Navigator.of(context).push(
-      MaterialPageRoute(builder: (_) => App()),
+      MaterialPageRoute(builder: (_) => One1()),
     );
   }
 
