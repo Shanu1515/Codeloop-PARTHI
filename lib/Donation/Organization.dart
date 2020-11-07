@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:parthi/Donation/payment.dart';
 
 class Organization extends StatefulWidget {
   @override
@@ -320,11 +321,11 @@ class _OrganizationState extends State<Organization> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  // Navigator.push(
-                                  // context,
-                                  // MaterialPageRoute(
-                                  //   builder: (context) => MyApp()),
-                                  //);
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => MyApp()),
+                                  );
                                 },
                                 child: Container(
                                   color: Colors.blue,
@@ -411,11 +412,11 @@ class _OrganizationState extends State<Organization> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  //Navigator.push(
-                                  //context,
-                                  //MaterialPageRoute(
-                                  //  builder: (context) => MyApp()),
-                                  //);
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => MyApp()),
+                                  );
                                 },
                                 child: Container(
                                   color: Colors.blue,
@@ -502,11 +503,11 @@ class _OrganizationState extends State<Organization> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  //  Navigator.push(
-                                  //  context,
-                                  //MaterialPageRoute(
-                                  //  builder: (context) => MyApp()),
-                                  //);
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => MyApp()),
+                                  );
                                 },
                                 child: Container(
                                   color: Colors.blue,
@@ -600,11 +601,11 @@ class _OrganizationState extends State<Organization> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  // Navigator.push(
-                                  //context,
-                                  //MaterialPageRoute(
-                                  //  builder: (context) => MyApp()),
-                                  //);
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => MyApp()),
+                                  );
                                 },
                                 child: Container(
                                   color: Colors.blue,
@@ -705,11 +706,11 @@ class _OrganizationState extends State<Organization> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  //Navigator.push(
-                                  //context,
-                                  //MaterialPageRoute(
-                                  //  builder: (context) => MyApp()),
-                                  //);
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => MyApp()),
+                                  );
                                 },
                                 child: Container(
                                   color: Colors.blue,
@@ -810,11 +811,11 @@ class _OrganizationState extends State<Organization> {
                               ),
                               GestureDetector(
                                 onTap: () {
-                                  //Navigator.push(
-                                  //context,
-                                  //MaterialPageRoute(
-                                  //  builder: (context) => MyApp()),
-                                  //);
+                                  Navigator.push(
+                                    context,
+                                    MaterialPageRoute(
+                                        builder: (context) => MyApp()),
+                                  );
                                 },
                                 child: Container(
                                   color: Colors.blue,
