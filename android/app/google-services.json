@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1021632829777",
+    "firebase_url": "https://paritha-ba7ea.firebaseio.com",
+    "project_id": "paritha-ba7ea",
+    "storage_bucket": "paritha-ba7ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021632829777:android:eb79d97c8221c3252f1b70",
+        "android_client_info": {
+          "package_name": "com.example.parthi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021632829777-kae65lcviegm3cobr69oc1l0shmbco25.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parthi",
+            "certificate_hash": "dde8a0dd620228724a0903970d94ecace5f29d7d"
+          }
+        },
+        {
+          "client_id": "1021632829777-db3qq472q8fdmm4neloa72bgkbm9jbo8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parthi",
+            "certificate_hash": "4901f64c1dcbb79c1d481489adb039da1843e81d"
+          }
+        },
+        {
+          "client_id": "1021632829777-9ah009v1d21c2rni1ttnbrh2681oislb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTXPEHA2DfFzvIPyPOPrefguQNhq-Ltgw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021632829777-9ah009v1d21c2rni1ttnbrh2681oislb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

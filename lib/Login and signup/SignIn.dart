@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:parthi/Choices/Choices.dart';
 import 'package:parthi/GoogleAuth/google.dart';
 import 'package:parthi/global.dart';
 
@@ -73,7 +74,7 @@ class _SignInState extends State<SignIn> {
                     height: 30,
                   ),
                   Text(
-                    "STARTING ADIRA",
+                    "STARTING PARTHI",
                     style: TextStyle(
                       fontSize: 25,
                       color: Colors.white,
@@ -220,10 +221,10 @@ class _SignInState extends State<SignIn> {
                                   formkey.currentState.save();
                                   signIn(_email.text, _pwd.text).then((user) {
                                     if (user != null) {
-                                      //Navigator.pushReplacement(
-                                      //    context,
-                                      //  MaterialPageRoute(
-                                      //     builder: (context) => Choices()));
+                                      Navigator.pushReplacement(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) => Choices()));
                                     } else {
                                       print("not");
                                     }
