@@ -8,6 +8,7 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:like_button/like_button.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:parthi/Blogs%20and%20post/fullpost.dart';
+import 'package:parthi/Comments/comment.dart';
 import 'package:share/share.dart';
 
 import '../global.dart';
@@ -16,6 +17,7 @@ DatabaseReference database1;
 bool check3 = false;
 String image;
 String comment;
+String post;
 int i = 0;
 bool like = false;
 
@@ -141,6 +143,7 @@ class _BlogsState extends State<Blogs> {
                                           check3 = true;
                                           image = snapshot1.data.value['image'];
                                           comment = snapshot1.data.value['uid'];
+                                          post = snapshot1.data.value['post'];
                                         });
                                       },
                                       excludeFromSemantics: true,
@@ -385,11 +388,11 @@ class _BlogsState extends State<Blogs> {
                         setState(() {
                           check3 = false;
                         });
-                        // Navigator.push(
-                        //  context,
-                        //  MaterialPageRoute(
-                        // builder: (context) =>
-                        //   Comment1(comment1: comment)));
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    Comment1(comment1: comment)));
                       },
                       child: Icon(
                         Icons.insert_comment,
@@ -403,10 +406,15 @@ class _BlogsState extends State<Blogs> {
                     GestureDetector(
                       onTap: () {
                         final RenderBox box = context.findRenderObject();
-                        Share.share('Hello',
-                            subject: 'Look what I made!',
-                            sharePositionOrigin:
-                                box.localToGlobal(Offset.zero) & box.size);
+                        Share.share(post,
+                                subject: 'Read my survival story',
+                                sharePositionOrigin:
+                                    box.localToGlobal(Offset.zero) & box.size)
+                            .then((value) {
+                          setState(() {
+                            check3 = false;
+                          });
+                        });
                       },
                       child: Icon(
                         MdiIcons.share,

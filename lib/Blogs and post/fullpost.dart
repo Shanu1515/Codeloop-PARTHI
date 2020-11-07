@@ -27,7 +27,7 @@ class _MoreState extends State<More> {
               child: Text(
                 widget.name,
                 style: TextStyle(
-                    letterSpacing: 15,
+                    letterSpacing: 12,
                     color: Colors.black,
                     fontSize: 20,
                     fontWeight: FontWeight.w400),

@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:parthi/Blogs%20and%20post/blogs.dart';
+import 'package:parthi/Blogs%20and%20post/post.dart';
+import 'package:parthi/Donation/donation.dart';
 import 'package:parthi/global.dart';
 
 class Bottom extends StatefulWidget {
@@ -65,8 +67,8 @@ class _BottomState extends State<Bottom> {
   Widget build(BuildContext context) {
     List<Widget> widget1 = [
       Blogs(),
-      // Donation(),
-      //  Post(),
+      Donation(),
+      Post(),
       // Appointment3(),
       // Community(),
     ];
