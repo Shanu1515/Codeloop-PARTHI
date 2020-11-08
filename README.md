@@ -18,7 +18,9 @@ ADIRA app has the following features:<br>
 :ballot_box_with_check: Donations-Support Breast cancer patient <br>
 
 ## How we built it:iphone:
-Cross -platform application built using Firebase, Flutter, Agora SDK and Razorpay API.
+Cross -platform application built using Firebase, Flutter, Agora SDK and Razorpay API.<br>
+APK-https://tinyurl.com/parthi-apk<br>
+Video demo:https://www.youtube.com/watch?v=gLJKplHroa0&feature=youtu.be
 
 ## 📋 What's next for PARTHI?
 1. Supporting regional languages
