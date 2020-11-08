@@ -4,8 +4,13 @@ import 'package:introduction_screen/introduction_screen.dart';
 import 'package:parthi/Languagesupport/1.dart';
 import 'package:parthi/global.dart';
 
+import 'Splashscreen/splashscreen.dart';
+
 void main() {
-  runApp(App());
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: Initial(),
+  ));
 }
 
 class App extends StatelessWidget {
