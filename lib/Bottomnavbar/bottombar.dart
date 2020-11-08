@@ -2,6 +2,7 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+import 'package:parthi/Appoitment/appointment.dart';
 import 'package:parthi/Blogs%20and%20post/blogs.dart';
 import 'package:parthi/Blogs%20and%20post/post.dart';
 import 'package:parthi/Donation/donation.dart';
@@ -69,7 +70,7 @@ class _BottomState extends State<Bottom> {
       Blogs(),
       Donation(),
       Post(),
-      // Appointment3(),
+      Appointment3(),
       // Community(),
     ];
 

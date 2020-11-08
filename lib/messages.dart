@@ -59,7 +59,7 @@ class _MessageState extends State<Message> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color(0xFFFFC0CB),
+        backgroundColor: HexColor('#81D4FA'),
         appBar: AppBar(
           automaticallyImplyLeading: true,
           iconTheme: IconThemeData(color: Colors.black),
@@ -84,7 +84,7 @@ class _MessageState extends State<Message> {
                 padding: const EdgeInsets.fromLTRB(10, 20, 40, 10),
                 child: Container(
                   decoration: BoxDecoration(
-                      color: Color(0xFFFFC0CB),
+                      color: HexColor('#81D4FA'),
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(20),
                           topRight: Radius.circular(20),
@@ -105,7 +105,7 @@ class _MessageState extends State<Message> {
                 padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                 child: Container(
                   decoration: BoxDecoration(
-                      color: Color(0xFFFFC0CB),
+                      color: HexColor('#81D4FA'),
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(20),
                           topRight: Radius.circular(20),
@@ -153,7 +153,7 @@ class _MessageState extends State<Message> {
                 padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                 child: Container(
                   decoration: BoxDecoration(
-                      color: Color(0xFFFFC0CB),
+                      color: HexColor('#81D4FA'),
                       borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(20),
                           topRight: Radius.circular(20),
@@ -245,7 +245,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -339,7 +339,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -438,7 +438,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -537,7 +537,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -634,7 +634,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -729,7 +729,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -778,7 +778,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -875,7 +875,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -972,7 +972,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -1071,7 +1071,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -1168,7 +1168,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -1265,7 +1265,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -1362,7 +1362,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -1411,7 +1411,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
@@ -1504,7 +1504,7 @@ class _MessageState extends State<Message> {
                   padding: const EdgeInsets.fromLTRB(10, 10, 40, 10),
                   child: Container(
                     decoration: BoxDecoration(
-                        color: Color(0xFFFFC0CB),
+                        color: HexColor('#81D4FA'),
                         borderRadius: BorderRadius.only(
                             topLeft: Radius.circular(20),
                             topRight: Radius.circular(20),
