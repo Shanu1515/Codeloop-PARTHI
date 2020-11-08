@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:parthi/Doctor/Login1%20and%20signup1/Firstscreen/appointment.dart';
 import 'package:parthi/GoogleAuth/google.dart';
 import 'package:parthi/global.dart';
 
@@ -220,11 +221,11 @@ class _SignInState extends State<SignIn1> {
                                   formkey.currentState.save();
                                   signIn(_email.text, _pwd.text).then((user) {
                                     if (user != null) {
-                                      // Navigator.pushReplacement(
-                                      //    context,
-                                      //   MaterialPageRoute(
-                                      //      builder: (context) =>
-                                      //        Appointment()));
+                                      Navigator.pushReplacement(
+                                          context,
+                                          MaterialPageRoute(
+                                              builder: (context) =>
+                                                  Appointment()));
                                     } else {
                                       print("not");
                                     }

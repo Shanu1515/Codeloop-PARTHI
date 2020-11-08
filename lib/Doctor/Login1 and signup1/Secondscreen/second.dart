@@ -1,7 +1,15 @@
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:parthi/Chat/2.dart';
+import 'package:parthi/Doctor/Login1%20and%20signup1/Secondscreen/show1.dart';
+import 'package:parthi/global.dart';
 
-class Show extends StatefulWidget {
+//import 'package:hackathon2/Doctor/Chat/1.dart';
+
+String abc;
+
+final databaseReference = FirebaseDatabase.instance.reference();
+
+class Second extends StatefulWidget {
   final int index;
   final String name;
   final String age;
@@ -9,10 +17,8 @@ class Show extends StatefulWidget {
   final String address;
   final String image;
   final String report;
-  final String check;
   final String uid;
-  final String drimage;
-  const Show(
+  const Second(
       {Key key,
       this.index,
       this.name,
@@ -21,15 +27,63 @@ class Show extends StatefulWidget {
       this.address,
       this.image,
       this.report,
-      this.check,
-      this.uid,
-      this.drimage})
+      this.uid})
       : super(key: key);
   @override
-  _ShowState createState() => _ShowState();
+  _SecondState createState() => _SecondState();
 }
 
-class _ShowState extends State<Show> {
+class _SecondState extends State<Second> {
+  Future<String> add(String image, String name, String age, String contact,
+      String add1, String report, String uid, String check) async {
+    //var uuid = new Uuid().v1();
+    //appointmentid = uuid;
+    DatabaseReference _color2 =
+        databaseReference.child("Appointments").child(uid);
+    final TransactionResult transactionResult =
+        await _color2.runTransaction((MutableData mutableData) async {
+      mutableData.value = (mutableData.value ?? 0) + 1;
+
+      return mutableData;
+    });
+    if (transactionResult.committed) {
+      _color2.push().set(<String, String>{
+        "image": "true",
+        "patientname": "true",
+        "patientage": "true",
+        "contact": "true",
+        "address": "true",
+        "check": "true",
+        "report": "true",
+        "drimage": "true",
+        "drname": "true",
+        "uid": "true"
+      }).then((_) {
+        print('Transaction  committed.');
+
+        abc = "success";
+      });
+    } else {
+      print('Transaction not committed.');
+      if (transactionResult.error != null) {
+        print(transactionResult.error.message);
+      }
+    }
+    _color2.set({
+      "image": image,
+      "patientname": name,
+      "patientage": age,
+      "contact": contact,
+      "address": add1,
+      "check": check,
+      "drimage": globalimage,
+      "drname": globalname,
+      "report": report,
+      "uid": uid
+    });
+    return abc;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -40,7 +94,7 @@ class _ShowState extends State<Show> {
         elevation: 0,
         title: Center(
           child: Text(
-            "APPOINTMENT STATUS",
+            "REQUESTS",
             style: TextStyle(
                 color: Colors.black,
                 letterSpacing: 5,
@@ -144,28 +198,22 @@ class _ShowState extends State<Show> {
                 child: Center(
                   child: GestureDetector(
                     onTap: () {
-                      if (widget.check == "false") {
-                        Navigator.push(
+                      add(widget.image, widget.name, widget.age, widget.contact,
+                          widget.address, widget.report, widget.uid, "false");
+                      Navigator.push(
                           context,
-                         MaterialPageRoute(
-                          builder: (context) => AllChatsPage(
-                             uid: widget.uid,
-                          image2: widget.drimage,
-                       )));
-                      }
+                          MaterialPageRoute(
+                              builder: (context) => Show1(
+                                    uid: widget.uid,
+                                  )));
                     },
                     child: Container(
                       height: 40,
                       child: Center(
-                        child: widget.check == "true"
-                            ? Text(
-                                "Pending",
-                                style: TextStyle(fontSize: 16),
-                              )
-                            : Text(
-                                "Accepted",
-                                style: TextStyle(fontSize: 16),
-                              ),
+                        child: Text(
+                          "Accept",
+                          style: TextStyle(fontSize: 16),
+                        ),
                       ),
                       width: 200,
                       decoration: BoxDecoration(

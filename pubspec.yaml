@@ -77,6 +77,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+     - assets/pink-288804-5fbc02059449.json
      - assets/user.png
      - assets/bot.png
      - assets/1.jpg

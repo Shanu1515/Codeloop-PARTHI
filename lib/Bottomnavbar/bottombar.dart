@@ -5,6 +5,7 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 import 'package:parthi/Appoitment/appointment.dart';
 import 'package:parthi/Blogs%20and%20post/blogs.dart';
 import 'package:parthi/Blogs%20and%20post/post.dart';
+import 'package:parthi/Community/commmunity.dart';
 import 'package:parthi/Donation/donation.dart';
 import 'package:parthi/global.dart';
 
@@ -71,7 +72,7 @@ class _BottomState extends State<Bottom> {
       Donation(),
       Post(),
       Appointment3(),
-      // Community(),
+      Community(),
     ];
 
     return Scaffold(
