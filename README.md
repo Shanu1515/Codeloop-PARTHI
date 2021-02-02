@@ -16,6 +16,7 @@ ADIRA app has the following features:<br>
 :ballot_box_with_check: Read and share your journey, inspire other women throughout their journey<br>
 :ballot_box_with_check: Support Groups-Interact with those you want.<br>
 :ballot_box_with_check: Donations-Support Breast cancer patient <br>
+:ballot_box_with_check: Supports few regional languages <br>
 
 ## How we built it:iphone:
 Cross -platform application built using Firebase, Flutter, Agora SDK and Razorpay API.<br>
@@ -23,7 +24,7 @@ APK-https://tinyurl.com/parthi-apk<br>
 Video demo:https://www.youtube.com/watch?v=gLJKplHroa0&feature=youtu.be
 
 ## 📋 What's next for PARTHI?
-1. Supporting regional languages
+1. Adding more regional languages 
 2. Upgrading to SHA-512 data-security protocols
 3. Onboarding more global and regional NGOs/ Organization
 4. Onboarding more support groups
